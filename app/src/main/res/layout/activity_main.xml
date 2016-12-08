@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:layout_margin="0dp"
+    android:background="#000000"
+    tools:context="com.example.guery.myapplication.MainActivity">
+
+
+<ScrollView
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ico_taxi"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/white"
+                android:paddingBottom="0dp"
+                android:text="    CREAR CUENTA"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EASY"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="35dp"
+
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_taxi"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:id="@+id/imageView5"
+             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAXI"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="35dp"
+                android:textSize="28sp"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="42dp"
+            android:src="@drawable/nombre"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:text="NOMBRE"
+                android:textColor="@android:color/secondary_text_dark"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/llamada"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:id="@+id/imageView7"
+                android:layout_weight="0.08" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:textColor="@android:color/white"
+                android:text="+591"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/esq"
+
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="TELEFONO CELULAR"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="44dp"
+            android:src="@drawable/correo"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="56dp"
+                android:text="CORREO ELECTRONICO"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="42dp"
+            android:src="@drawable/contrasenia"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="288dp"
+                android:layout_height="52dp"
+                android:text="CONTRASENIA"
+                android:textColor="@android:color/secondary_text_dark"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+               />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="44dp"
+            android:src="@drawable/tax"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="266dp"
+                android:layout_height="48dp"
+                android:text="CODIGO PROMOCINAL"
+
+                android:textColor="@android:color/secondary_text_dark"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+        <TextView
+
+            android:layout_width="345dp"
+            android:layout_height="40dp"
+
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+
+            android:text="ENVIAR"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+</LinearLayout>
+
+
+
+
+</ScrollView>
+</RelativeLayout>
