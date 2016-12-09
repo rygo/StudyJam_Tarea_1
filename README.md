@@ -14,8 +14,14 @@ Captura
 ---------
 
 <div align="center">
+ <br> apk original </br>
+    <center>
+        <img src="/img/apk.png" width="300">
+    </center>
+    <br>   demo   </br>
     <center>
         <img src="/img/captura.png" width="300">
     </center>
+
 </div>
 
